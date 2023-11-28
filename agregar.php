@@ -2,7 +2,16 @@
     <head>
         <title>AGREGAR</title>
     </head>
-    <body>
+    <body
+         <?php
+            if(isset($_POST['enviar'])){
+                $nombre=$_POST['nombre'];
+                $nocontrol=$_POST['no.control'];
+                include("conexion.php")
+            }else{
+
+            }
+        ?>
         <h1>Agregar nuevo empleado</h1>
         <form action="" method="post">
             <input type="text" name="no.control"> <br>
