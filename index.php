@@ -7,6 +7,8 @@
 
         }
     </script>
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+
 </head>
 <body>
 <?php
