@@ -4,6 +4,6 @@ $dbuser="root";
 $dbhost="localhost";
 $dbpass="";
 
-$conexion=mysql_connect($dbhost,$dbuser,$dbpass,$dbname);
+$conexion=mysqli_connect($dbhost,$dbuser,$dbpass,$dbname);
 
 ?>
